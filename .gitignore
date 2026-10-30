@@ -1,0 +1,36 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+env/
+venv/
+.venv/
+
+# Node.js
+frontend/node_modules/
+frontend/dist/
+
+# Uploaded files and generated data
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Local database and logs
+*.sqlite3
+*.db
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
